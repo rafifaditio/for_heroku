@@ -20,7 +20,7 @@ selected = st.sidebar.selectbox('Select Page', ['Data Visualization', 'Statistic
 
 if selected == 'Data Visualization':
     st.title('Uber pickups in NYC')
-
+    st.caption('haloo')
     DATE_COLUMN = 'date/time'
     DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
                 'streamlit-demo-data/uber-raw-data-sep14.csv.gz')
